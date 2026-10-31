@@ -1,0 +1,19 @@
+#titulo {
+    text-align:center;
+}
+img {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+}
+#botaoenviar {
+    background-color: aquamarine;
+    width: 60vh;
+    height: 10vh;
+    border-radius: 50%;
+    font-size: 20px;
+}
+#resposta {
+    background-color: rgb(35, 141, 141);
+    border-radius: 10%;
+}
