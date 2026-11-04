@@ -1,6 +1,6 @@
 //IA
 function enviar() {
-    let pkramdom = Math.floor(Math.random() * 4);
+    let pkramdom = Math.floor(Math.random() * 6);
 if (pkramdom == 0) {
     document.getElementById("txtresposta").innerText = "Hehehe, " + document.getElementById("input3").value ;
 } else if(pkramdom == 1) {
@@ -9,6 +9,10 @@ if (pkramdom == 0) {
     document.getElementById("txtresposta").innerText = "Meu deus, " + document.getElementById("input1").value + "." ;
 } else if (pkramdom == 3) {
      document.getElementById("txtresposta").innerText = "EBAAAAAA " + document.getElementById("input4").value + " kkkkkkkkkkkkkkkkkkk" ;
+} else if (pkramdom == 4) {
+    document.getElementById("txtresposta").innerText = "O  " + document.getElementById("input4").value + " NÃO NÉ!" ;
+} else if (pkramdom == 5) {
+    document.getElementById("txtresposta").innerText = "O  " + document.getElementById("input2").value + " Falta porque "  + document.getElementById("input1").value + " Não" ;
 }
 
 }
